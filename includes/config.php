@@ -4,7 +4,6 @@ class Config{
 	private $host = "localhost";
 	private $db_name = "db_order_food";
 	private $username = "root";
-	private $password = "5758";
 	public $conn;
 	
 	public function getConnection(){

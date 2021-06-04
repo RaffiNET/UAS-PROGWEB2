@@ -5,7 +5,7 @@ if (!isset($_SESSION['nama_pengguna'])) {
 }
 $host = "localhost";
 $user = "root";
-$password = "5758";
+$password = "";
 $database = "db_order_food";
 $conn = new mysqli($host, $user, $password, $database);
 if ($conn->connect_error) {
